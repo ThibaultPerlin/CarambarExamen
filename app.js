@@ -3,7 +3,7 @@ const swaggerUi = require('swagger-ui-express');
 const specs = require('./swagger');
 
 const app = express();
-const PORT = 3000;
+const PORT = 5501;
 
 // Routes
 app.get('/api/joke', (req, res) => {
